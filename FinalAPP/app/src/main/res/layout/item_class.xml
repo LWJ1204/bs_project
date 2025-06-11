@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:background="@color/springgreen"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="UselessParent">
+    <ImageView
+        android:id="@+id/item_class_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="课程图片"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/book_class"
+        />
+    <!--        android:src="@drawable/class_img"-->
+    <TextView
+        android:id="@+id/item_class_name"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@+id/item_class_img"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="课程名称"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/item_class_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="教师"
+        android:layout_toRightOf="@+id/item_class_img"
+        android:layout_below="@+id/item_class_name"
+        android:textSize="10sp" />
+    <ImageView
+        android:id="@+id/item_class_forward"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/forward"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        />
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ClassesFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/temp1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学年:"
+            android:layout_centerVertical="true"
+            android:textSize="17sp"
+            />
+        <Spinner
+            android:id="@+id/select_year"
+            android:layout_toRightOf="@+id/temp1"
+            android:minHeight="48dp"
+            android:gravity="top"
+            android:layout_marginLeft="3dp"
+            android:layout_alignParentTop="true"
+            android:spinnerMode="dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/temp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/select_year"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="学期:"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            />
+        <Spinner
+            android:id="@+id/select_xq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_toRightOf="@+id/temp2"
+            android:layout_marginLeft="3dp"
+            android:layout_alignParentTop="true"
+            android:spinnerMode="dialog"
+            />
+
+        <ImageButton
+            android:id="@+id/class_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:src="@drawable/search1"
+            android:background="@color/gray"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/select_xq"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="下载课程"
+            />
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/classes_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+</FrameLayout>

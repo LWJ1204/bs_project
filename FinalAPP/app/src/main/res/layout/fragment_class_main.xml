@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ClassMain">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/classinfo_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/class_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:minHeight="48dp"
+            android:text="教室:"
+            android:textColor="@color/rgray"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/class_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_room"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:minHeight="48dp"
+            android:text="教师:"
+            android:textColor="@color/rgray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/class_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_teacher"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:minHeight="48dp"
+            android:text="开课学年:"
+            android:textColor="@color/rgray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/class_semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_year"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:minHeight="48dp"
+            android:text="开课学期:"
+            android:textColor="@color/rgray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/class_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_semester"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:minHeight="48dp"
+            android:text="学分:"
+            android:textColor="@color/rgray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/class_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_value"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:minHeight="48dp"
+            android:text="课程号:"
+            android:textColor="@color/rgray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/class_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_id"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:minHeight="48dp"
+            android:text="结课形式:"
+            android:textColor="@color/rgray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/class_weeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_finish"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:minHeight="48dp"
+            android:text="课程安排:"
+            android:textColor="@color/rgray"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/set_class_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/class_room"
+            android:minHeight="48dp"
+            android:text="博五B302"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/set_class_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_class_room"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/class_teacher"
+            android:minHeight="48dp"
+            android:text="张三"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/set_class_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_class_teacher"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/class_year"
+            android:minHeight="48dp"
+            android:text="2021-2022"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/set_class_semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_class_year"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/class_year"
+            android:minHeight="48dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/set_class_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_class_semester"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/class_value"
+            android:minHeight="48dp"
+            android:text="2.5"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/set_class_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_class_value"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/class_id"
+            android:minHeight="48dp"
+            android:text="M2349123"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/set_class_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_class_id"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/class_finish"
+            android:minHeight="48dp"
+            android:text="考试"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/set_class_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_class_finish"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/class_weeks"
+            android:text="11-20周"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+</FrameLayout>

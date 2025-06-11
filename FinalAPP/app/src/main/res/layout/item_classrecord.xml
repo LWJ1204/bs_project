@@ -1,0 +1,45 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="48dp"
+        android:id="@+id/item_classrecord"
+        >
+
+        <TextView
+            android:id="@+id/classrecord_coursename"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="课程名称"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/classrecord_settime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/classrecord_coursename"
+            android:layout_marginLeft="15dp"
+            android:singleLine="true"
+            android:text="2022-12-11 18:85:52"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+
+        />
+    <TextView
+        android:id="@+id/classrecord_state"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="已签到"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/classrecord_settime"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+
+        />
+    </RelativeLayout>
