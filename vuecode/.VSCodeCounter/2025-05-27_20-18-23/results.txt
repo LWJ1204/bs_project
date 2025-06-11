@@ -1,0 +1,86 @@
+Date : 2025-05-27 20:18:23
+Directory : f:\final_project\Code\vuecode
+Total : 40 files,  10156 codes, 190 comments, 361 blanks, all 10707 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| vue                |         16 |      4,339 |         13 |        232 |      4,584 |
+| JSON               |          2 |      3,704 |          0 |          2 |      3,706 |
+| JavaScript         |         15 |      1,883 |        172 |        106 |      2,161 |
+| Less               |          2 |        159 |          3 |         14 |        176 |
+| TypeScript         |          2 |         33 |          2 |          2 |         37 |
+| JSON with Comments |          1 |         22 |          0 |          1 |         23 |
+| HTML               |          1 |         13 |          0 |          1 |         14 |
+| Markdown           |          1 |          3 |          0 |          3 |          6 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                             |         40 |     10,156 |        190 |        361 |     10,707 |
+| . (Files)                                                     |          6 |      3,763 |          1 |          8 |      3,772 |
+| src                                                           |         34 |      6,393 |        189 |        353 |      6,935 |
+| src (Files)                                                   |          2 |         35 |         12 |         21 |         68 |
+| src\api                                                       |          9 |      1,376 |        108 |         69 |      1,553 |
+| src\api (Files)                                               |          2 |        322 |         41 |         12 |        375 |
+| src\api\mockData                                              |          7 |      1,054 |         67 |         57 |      1,178 |
+| src\assets                                                    |          2 |        159 |          3 |         14 |        176 |
+| src\assets\less                                               |          2 |        159 |          3 |         14 |        176 |
+| src\components                                                |          3 |        396 |          0 |         30 |        426 |
+| src\config                                                    |          1 |         16 |          1 |          2 |         19 |
+| src\hooks                                                     |          1 |          9 |          0 |          0 |          9 |
+| src\router                                                    |          1 |         70 |         33 |         10 |        113 |
+| src\stores                                                    |          2 |        389 |         18 |         10 |        417 |
+| src\types                                                     |          1 |         12 |          1 |          1 |         14 |
+| src\views                                                     |         12 |      3,931 |         13 |        196 |      4,140 |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                      | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| f:\final_project\Code\vuecode\README.md                       | Markdown           |          3 |          0 |          3 |          6 |
+| f:\final_project\Code\vuecode\index.html                      | HTML               |         13 |          0 |          1 |         14 |
+| f:\final_project\Code\vuecode\package-lock.json               | JSON               |      3,672 |          0 |          1 |      3,673 |
+| f:\final_project\Code\vuecode\package.json                    | JSON               |         32 |          0 |          1 |         33 |
+| f:\final_project\Code\vuecode\src\App.vue                     | vue                |         12 |          0 |          6 |         18 |
+| f:\final_project\Code\vuecode\src\api\api.js                  | JavaScript         |        282 |         34 |          7 |        323 |
+| f:\final_project\Code\vuecode\src\api\mockData\class.js       | JavaScript         |         99 |         17 |         12 |        128 |
+| f:\final_project\Code\vuecode\src\api\mockData\course.js      | JavaScript         |        272 |         17 |         11 |        300 |
+| f:\final_project\Code\vuecode\src\api\mockData\home.js        | JavaScript         |         68 |          0 |          2 |         70 |
+| f:\final_project\Code\vuecode\src\api\mockData\permission.js  | JavaScript         |        187 |          6 |          9 |        202 |
+| f:\final_project\Code\vuecode\src\api\mockData\record.js      | JavaScript         |        115 |          8 |          6 |        129 |
+| f:\final_project\Code\vuecode\src\api\mockData\student.js     | JavaScript         |        170 |          8 |         10 |        188 |
+| f:\final_project\Code\vuecode\src\api\mockData\teacher.js     | JavaScript         |        143 |         11 |          7 |        161 |
+| f:\final_project\Code\vuecode\src\api\requset.js              | JavaScript         |         40 |          7 |          5 |         52 |
+| f:\final_project\Code\vuecode\src\assets\less\index.less      | Less               |          1 |          0 |          0 |          1 |
+| f:\final_project\Code\vuecode\src\assets\less\reset.less      | Less               |        158 |          3 |         14 |        175 |
+| f:\final_project\Code\vuecode\src\components\CommonAside.vue  | vue                |        177 |          0 |         13 |        190 |
+| f:\final_project\Code\vuecode\src\components\CommonHeader.vue | vue                |        171 |          0 |         15 |        186 |
+| f:\final_project\Code\vuecode\src\components\CommonTab.vue    | vue                |         48 |          0 |          2 |         50 |
+| f:\final_project\Code\vuecode\src\config\index.js             | JavaScript         |         16 |          1 |          2 |         19 |
+| f:\final_project\Code\vuecode\src\hooks\handCollapse.js       | JavaScript         |          9 |          0 |          0 |          9 |
+| f:\final_project\Code\vuecode\src\main.js                     | JavaScript         |         23 |         12 |         15 |         50 |
+| f:\final_project\Code\vuecode\src\router\index.js             | JavaScript         |         70 |         33 |         10 |        113 |
+| f:\final_project\Code\vuecode\src\stores\index.js             | JavaScript         |        321 |          2 |          9 |        332 |
+| f:\final_project\Code\vuecode\src\stores\websocket.js         | JavaScript         |         68 |         16 |          1 |         85 |
+| f:\final_project\Code\vuecode\src\types\Class.ts              | TypeScript         |         12 |          1 |          1 |         14 |
+| f:\final_project\Code\vuecode\src\views\Classes.vue           | vue                |        499 |          3 |         25 |        527 |
+| f:\final_project\Code\vuecode\src\views\CourseInfo.vue        | vue                |        749 |          0 |         25 |        774 |
+| f:\final_project\Code\vuecode\src\views\CourseSelected.vue    | vue                |        233 |          1 |         15 |        249 |
+| f:\final_project\Code\vuecode\src\views\Home.vue              | vue                |        250 |          0 |         17 |        267 |
+| f:\final_project\Code\vuecode\src\views\Login.vue             | vue                |        156 |          1 |         13 |        170 |
+| f:\final_project\Code\vuecode\src\views\Main.vue              | vue                |         31 |          0 |          3 |         34 |
+| f:\final_project\Code\vuecode\src\views\MyStudents.vue        | vue                |        155 |          0 |         11 |        166 |
+| f:\final_project\Code\vuecode\src\views\Register.vue          | vue                |        132 |          0 |         11 |        143 |
+| f:\final_project\Code\vuecode\src\views\Students.vue          | vue                |        466 |          3 |         22 |        491 |
+| f:\final_project\Code\vuecode\src\views\Teachers.vue          | vue                |        445 |          0 |         14 |        459 |
+| f:\final_project\Code\vuecode\src\views\recordManage.vue      | vue                |        253 |          1 |         19 |        273 |
+| f:\final_project\Code\vuecode\src\views\recordSet.vue         | vue                |        562 |          4 |         21 |        587 |
+| f:\final_project\Code\vuecode\tsconfig.json                   | JSON with Comments |         22 |          0 |          1 |         23 |
+| f:\final_project\Code\vuecode\vite.config.ts                  | TypeScript         |         21 |          1 |          1 |         23 |
+| Total                                                         |                    |     10,156 |        190 |        361 |     10,707 |
++---------------------------------------------------------------+--------------------+------------+------------+------------+------------+
