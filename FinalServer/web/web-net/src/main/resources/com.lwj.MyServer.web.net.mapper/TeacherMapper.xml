@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lwj.FinalServer.web.net.mapper.TeacherMapper">
+
+    <resultMap id="BaseResultMap" type="com.lwj.FinalServer.model.entity.Teacher">
+            <id property="teacherid" column="TeacherId" />
+            <result property="teachername" column="TeacherName" />
+            <result property="teachersex" column="TeacherSex" />
+            <result property="teacherphone" column="TeacherPhone" />
+            <result property="teacherbirth" column="TeacherBirth" />
+            <result property="amid" column="AMId" />
+            <result property="teachertitle" column="TeacherTitle" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        TeacherId,TeacherName,TeacherSex,TeacherPhone,TeacherBirth,AMId,
+        TeacherTitle
+    </sql>
+</mapper>

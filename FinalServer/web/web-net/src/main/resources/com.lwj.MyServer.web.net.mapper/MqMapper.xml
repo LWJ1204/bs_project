@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lwj.FinalServer.web.net.mapper.MqMapper">
+
+    <resultMap id="BaseResultMap" type="com.lwj.FinalServer.model.entity.Mq">
+        <id property="courseid" column="CourseId" />
+        <result property="studentid" column="StudentId" />
+        <result property="binding" column="binding" />
+        <result property="exchangetype" column="ExchangeType" />
+        <result property="delaytype" column="delaytype" />
+        <result property="del_flag" column="del_flag" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        CourseId,StudentId,ExchangeType,binding,delaytype,del_flag,
+    </sql>
+</mapper>

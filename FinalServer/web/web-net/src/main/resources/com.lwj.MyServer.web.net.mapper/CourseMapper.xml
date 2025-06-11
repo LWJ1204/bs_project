@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lwj.FinalServer.web.net.mapper.CourseMapper">
+
+    <resultMap id="BaseResultMap" type="com.lwj.FinalServer.model.entity.Course">
+            <id property="courseid" column="CourseId" />
+            <result property="coursename" column="CourseName" />
+            <result property="teacherid" column="TeacherId" />
+            <result property="classroomid" column="ClassRoomId" />
+            <result property="coursevalue" column="CourseValue" />
+            <result property="coursefinish" column="CourseFinish" />
+            <result property="coursenum" column="CourseNum" />
+            <result property="coursetime" column="CourseTime" />
+            <result property="courseyear" column="CourseYear" />
+            <result property="coursesemester" column="CourseSemester" />
+            <result property="academy" column="Academy" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        CourseId,CourseName,TeacherId,ClassRoomId,CourseValue,CourseFinish,
+        CourseNum,CourseTime,CourseYear,CourseSemester,Academy
+    </sql>
+</mapper>

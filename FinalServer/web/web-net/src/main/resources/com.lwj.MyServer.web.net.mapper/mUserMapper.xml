@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lwj.FinalServer.web.net.mapper.mUserMapper">
+
+    <resultMap id="BaseResultMap" type="com.lwj.FinalServer.model.entity.mUser">
+        <id property="id" column="Id" />
+        <result property="username" column="UserName" />
+        <result property="password" column="PassWord" />
+        <result property="role" column="Role" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,UserName,PassWord,Role
+    </sql>
+</mapper>

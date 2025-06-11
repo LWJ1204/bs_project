@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lwj.FinalServer.web.net.mapper.RecordStateMapper">
+    <resultMap id="BaseResultMap" type="com.lwj.FinalServer.model.entity.RecordState">
+            <id property="recordid" column="RecordId" />
+            <id property="studentid" column="StudentId" />
+            <result property="recordstate" column="RecordState" />
+            <result property="recordarrtime" column="RecordArrTime" />
+            <result property="code" column="Code" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        RecordId,StudentId,RecordState,RecordArrTime,Code,
+    </sql>
+</mapper>
